@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function Calculator() {
   return (
-    <><h1>App Page</h1>
+    <><h1>Calculator</h1>
     
     </>
   );
 }
 
-export default App;
+export default Calculator;
