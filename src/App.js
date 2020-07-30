@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
 
+import Nav from './Nav';
+
 function App() {
   return (
-    <><h1>App Page</h1>
+    <main className="container">
+      <h1>My Calculator</h1>
+    <Nav />
     
-    </>
+    
+    </main>
   );
 }
 

@@ -1,11 +1,26 @@
-.App {
-  text-align: center;
+.container {
+  margin:auto;
+  border: 2px solid black;
+  width: 60%;
+}
+nav {
+
+  background-color: bisque;  
+}
+nav ul { 
+  display: flex;
+  justify-content: start;
 }
 
-nav {
-  height: 10vh;
-  background-color: bisque;
+nav ul li {
   list-style: none;
-  display: flex;
-  
+  color: black;
+  margin-right: 20px;
+text-align: center;
+padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
 }
